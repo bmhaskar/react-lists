@@ -6,6 +6,12 @@ import {DragDropContext,Droppable} from 'react-beautiful-dnd'
 
 const Container = styled.div`
   display: flex;
+  margin-top: 0.5rem;
+`;
+
+const Header = styled.h1`
+  font-size: 2rem;
+  padding: 8px;
 `;
 
 class InnerColumns extends React.PureComponent {
@@ -16,8 +22,8 @@ class InnerColumns extends React.PureComponent {
     }
   }
 class App extends React.Component {
-    static defaultProps = {initialData: {}}
-    state = this.props.intialData ;
+    static defaultProps = {intialData: {}};
+    state = this.props.intialData;
     onDragEnd = result => {
       const { destination, source, draggableId, type } = result;
       if (!destination) {
@@ -88,8 +94,10 @@ class App extends React.Component {
       this.setState(newState);
     };
     render() {
-      return (
-        <DragDropContext onDragEnd={this.onDragEnd}>
+      const { columnOrder = [] , tasks = {}, columns = {}} = this.state; 
+      
+      return [<Header key="header">React lists</Header>, 
+        <DragDropContext onDragEnd={this.onDragEnd} key="dnd-context">
           <Droppable
             droppableId="all-columns"
             direction="horizontal"
@@ -97,13 +105,13 @@ class App extends React.Component {
           >
             {provided => (
               <Container ref={provided.innerRef} {...provided.droppableProps}>
-                {this.state.columnOrder.map((columnId, index) => {
-                  const column = this.state.columns[columnId];
+                {columnOrder.map((columnId, index) => {
+                  const column = columns[columnId];
                   return (
                     <InnerColumns
                       key={columnId}
                       column={column}
-                      taskMap={this.state.tasks}
+                      taskMap={tasks}
                       index={index}
                     />
                   );
@@ -113,7 +121,7 @@ class App extends React.Component {
             )}
           </Droppable>
         </DragDropContext>
-      );
+      ];
     }
   }
   export default App;

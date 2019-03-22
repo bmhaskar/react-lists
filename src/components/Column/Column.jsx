@@ -42,7 +42,7 @@ class Column extends React.Component {
        {...provided.dragHandleProps}
        isDragging={snapshot.isDragging}
        >
-        <Title>{this.props.column.title}</Title>
+        <Title data-testid="column-title">{this.props.column.title}</Title>
         <Droppable droppableId={this.props.column.id}>
           {(provided, snapshot) => (
             <TaskList 

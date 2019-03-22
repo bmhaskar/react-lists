@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test if app renders fine without data 1`] = `
+<DocumentFragment>
+  <h1
+    class="sc-EHOje dybXsK"
+  >
+    React lists
+  </h1>
+  <div
+    class="sc-ifAKCX bUJsJm"
+    data-react-beautiful-dnd-droppable="1"
+  />
+</DocumentFragment>
+`;

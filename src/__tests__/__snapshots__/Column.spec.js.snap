@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test if we can drag and drop the columns 1`] = `
+<DocumentFragment>
+  <h1
+    class="sc-EHOje dybXsK"
+  >
+    React lists
+  </h1>
+  <div
+    class="sc-ifAKCX bUJsJm"
+    data-react-beautiful-dnd-droppable="0"
+  >
+    <div
+      aria-roledescription="Draggable item. Press space bar to lift"
+      class="sc-bwzfXH bzWgXk"
+      data-react-beautiful-dnd-drag-handle="0"
+      data-react-beautiful-dnd-draggable="0"
+      draggable="false"
+      tabindex="0"
+    >
+      <h3
+        class="sc-htpNat gltnqu"
+        data-testid="column-title"
+      >
+        To do
+      </h3>
+      <div
+        class="sc-bxivhb ldDIuY"
+        data-react-beautiful-dnd-droppable="0"
+        type="task"
+      >
+        <div
+          aria-roledescription="Draggable item. Press space bar to lift"
+          class="sc-bdVaJa eaiOOq"
+          data-react-beautiful-dnd-drag-handle="0"
+          data-react-beautiful-dnd-draggable="0"
+          draggable="false"
+          tabindex="0"
+        >
+          Take out the garbage
+        </div>
+        <div
+          aria-roledescription="Draggable item. Press space bar to lift"
+          class="sc-bdVaJa eaiOOq"
+          data-react-beautiful-dnd-drag-handle="0"
+          data-react-beautiful-dnd-draggable="0"
+          draggable="false"
+          tabindex="0"
+        >
+          Charge my tracker
+        </div>
+        <div
+          aria-roledescription="Draggable item. Press space bar to lift"
+          class="sc-bdVaJa eaiOOq"
+          data-react-beautiful-dnd-drag-handle="0"
+          data-react-beautiful-dnd-draggable="0"
+          draggable="false"
+          tabindex="0"
+        >
+          Exercise
+        </div>
+      </div>
+    </div>
+    <div
+      aria-roledescription="Draggable item. Press space bar to lift"
+      class="sc-bwzfXH bzWgXk"
+      data-react-beautiful-dnd-drag-handle="0"
+      data-react-beautiful-dnd-draggable="0"
+      draggable="false"
+      tabindex="0"
+    >
+      <h3
+        class="sc-htpNat gltnqu"
+        data-testid="column-title"
+      >
+        In progress
+      </h3>
+      <div
+        class="sc-bxivhb ldDIuY"
+        data-react-beautiful-dnd-droppable="0"
+        type="task"
+      />
+    </div>
+    <div
+      aria-roledescription="Draggable item. Press space bar to lift"
+      class="sc-bwzfXH bzWgXk"
+      data-react-beautiful-dnd-drag-handle="0"
+      data-react-beautiful-dnd-draggable="0"
+      draggable="false"
+      tabindex="0"
+    >
+      <h3
+        class="sc-htpNat gltnqu"
+        data-testid="column-title"
+      >
+        Done
+      </h3>
+      <div
+        class="sc-bxivhb ldDIuY"
+        data-react-beautiful-dnd-droppable="0"
+        type="task"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Test if we can drag and drop the columns 2`] = `
+<DocumentFragment>
+  <h1
+    class="sc-EHOje dybXsK"
+  >
+    React lists
+  </h1>
+  <div
+    class="sc-ifAKCX bUJsJm"
+    data-react-beautiful-dnd-droppable="0"
+  >
+    <div
+      aria-roledescription="Draggable item. Press space bar to lift"
+      class="sc-bwzfXH bzWgXk"
+      data-react-beautiful-dnd-drag-handle="0"
+      data-react-beautiful-dnd-draggable="0"
+      draggable="false"
+      tabindex="0"
+    >
+      <h3
+        class="sc-htpNat gltnqu"
+        data-testid="column-title"
+      >
+        To do
+      </h3>
+      <div
+        class="sc-bxivhb ldDIuY"
+        data-react-beautiful-dnd-droppable="0"
+        type="task"
+      >
+        <div
+          aria-roledescription="Draggable item. Press space bar to lift"
+          class="sc-bdVaJa eaiOOq"
+          data-react-beautiful-dnd-drag-handle="0"
+          data-react-beautiful-dnd-draggable="0"
+          draggable="false"
+          tabindex="0"
+        >
+          Take out the garbage
+        </div>
+        <div
+          aria-roledescription="Draggable item. Press space bar to lift"
+          class="sc-bdVaJa eaiOOq"
+          data-react-beautiful-dnd-drag-handle="0"
+          data-react-beautiful-dnd-draggable="0"
+          draggable="false"
+          tabindex="0"
+        >
+          Charge my tracker
+        </div>
+        <div
+          aria-roledescription="Draggable item. Press space bar to lift"
+          class="sc-bdVaJa eaiOOq"
+          data-react-beautiful-dnd-drag-handle="0"
+          data-react-beautiful-dnd-draggable="0"
+          draggable="false"
+          tabindex="0"
+        >
+          Exercise
+        </div>
+      </div>
+    </div>
+    <div
+      aria-roledescription="Draggable item. Press space bar to lift"
+      class="sc-bwzfXH bzWgXk"
+      data-react-beautiful-dnd-drag-handle="0"
+      data-react-beautiful-dnd-draggable="0"
+      draggable="false"
+      tabindex="0"
+    >
+      <h3
+        class="sc-htpNat gltnqu"
+        data-testid="column-title"
+      >
+        In progress
+      </h3>
+      <div
+        class="sc-bxivhb ldDIuY"
+        data-react-beautiful-dnd-droppable="0"
+        type="task"
+      />
+    </div>
+    <div
+      aria-roledescription="Draggable item. Press space bar to lift"
+      class="sc-bwzfXH bzWgXk"
+      data-react-beautiful-dnd-drag-handle="0"
+      data-react-beautiful-dnd-draggable="0"
+      draggable="false"
+      tabindex="0"
+    >
+      <h3
+        class="sc-htpNat gltnqu"
+        data-testid="column-title"
+      >
+        Done
+      </h3>
+      <div
+        class="sc-bxivhb ldDIuY"
+        data-react-beautiful-dnd-droppable="0"
+        type="task"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

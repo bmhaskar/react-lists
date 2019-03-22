@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+// eslint-disable-next-line
 import "@atlaskit/css-reset";
-import App from "./app";
-import intialData from "../intial-data";
+import App from "./App";
+import intialData from "./intial-data";
 // import './index.css';
 // import App from './App';
 // import * as serviceWorker from './serviceWorker';
