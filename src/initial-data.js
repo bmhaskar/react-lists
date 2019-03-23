@@ -1,4 +1,4 @@
-const intialData = {
+const initialData = {
   tasks: {
     "task-1": { id: "task-1", content: "Take out the garbage" },
     "task-2": { id: "task-2", content: "Charge my tracker" },
@@ -23,4 +23,4 @@ const intialData = {
   },
   columnOrder: ["column-1", "column-2", "column-3"]
 };
-export default intialData;
+export default initialData;

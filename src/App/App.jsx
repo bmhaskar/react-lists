@@ -22,8 +22,8 @@ class InnerColumns extends React.PureComponent {
     }
   }
 class App extends React.Component {
-    static defaultProps = {intialData: {}};
-    state = this.props.intialData;
+    static defaultProps = {initialData: {}};
+    state = this.props.initialData;
     onDragEnd = result => {
       const { destination, source, draggableId, type } = result;
       if (!destination) {
@@ -93,11 +93,14 @@ class App extends React.Component {
   
       this.setState(newState);
     };
+    onDragUpdate = (result) => {
+      console.log(result);
+    };
     render() {
       const { columnOrder = [] , tasks = {}, columns = {}} = this.state; 
       
       return [<Header key="header">React lists</Header>, 
-        <DragDropContext onDragEnd={this.onDragEnd} key="dnd-context">
+        <DragDropContext onDragUpdate={this.onDragUpdate} onDragEnd={this.onDragEnd} key="dnd-context">
           <Droppable
             droppableId="all-columns"
             direction="horizontal"

@@ -3,13 +3,13 @@ import ReactDOM from "react-dom";
 // eslint-disable-next-line
 import "@atlaskit/css-reset";
 import App from "./App";
-import intialData from "./intial-data";
+import initialData from "./initial-data";
 // import './index.css';
 // import App from './App';
 // import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <App intialData={intialData} />,
+  <App initialData={initialData} />,
   document.getElementById("root")
 );
 

@@ -7,11 +7,11 @@ import { testData } from "../utils/buildDummyData";
 
 afterEach(cleanup);
 test("Test if app renders fine with dummy data", () => {
-  const { getAllByTestId } = render(<App intialData={testData.toJSON()} />);
+  const { getAllByTestId } = render(<App initialData={testData.toJSON()} />);
   const titles = getAllByTestId("column-title").map(
     titleNode => titleNode.textContent
   );
-  expect(titles).toEqual(testData.getColumnTtitles());
+  expect(titles).toEqual(testData.getColumnTittles());
 });
 
 test("Test if app renders fine without data", () => {
